@@ -108,24 +108,24 @@
         <dependency>
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-kernel</artifactId>
-            <version>${neo4j.version}</version>
+            <version>1.7</version>
         </dependency>
         <dependency>
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-lucene-index</artifactId>
-            <version>${neo4j.version}</version>
+            <version>$1.7</version>
         </dependency>
         <dependency>
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-shell</artifactId>
-            <version>${neo4j.shell.version}</version>
+            <version>1.7</version>
         </dependency>
 
         <!-- REST Binding -->
         <dependency>
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-rest-graphdb</artifactId>
-            <version>${neo4j.rest.version}</version>
+            <version>1.8-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
